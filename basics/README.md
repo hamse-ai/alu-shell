@@ -1,1 +1,2 @@
-aadnad
+#!bin/bash
+pwd
