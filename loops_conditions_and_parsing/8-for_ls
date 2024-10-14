@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This prints each of the file names in cwd after the first - in them
+
+for i in *; do
+    echo "$i" | cut -d "-" -f 2-
+done
